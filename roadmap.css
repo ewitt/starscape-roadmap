@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.logo-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+#background {
+  background-image: url('nebula.png');
+  background-attachment: fixed;
+  background-size: cover;
+  width: calc(100% - 40px);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#items {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.sans-font {
+  font-family: sans-serif;
+  line-height: 1.25;
+  color: #CCC;
+}
+
+#roadmap-label {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.timeframe-label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #CC6;
+}
+
+.roadmap-item {
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.item-description {
+  font-size: 16px
+}
+
+#item-template {
+  display: none;
+}
+
+.item-category {
+  margin-bottom: 30px;
+}
