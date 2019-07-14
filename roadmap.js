@@ -1,4 +1,3 @@
-
 const PRE_RELEASE = [
   {
     title: 'Missions',
@@ -29,10 +28,6 @@ const PRE_RELEASE = [
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
-    title: 'Ship abilities',
-    description: 'A new ship upgrade slot that lets players equip one of several new upgrades to their ship: tractor beam, signal cloak, afterburner, or repair beam.'
-  },
-  {
     title: 'Player tagging',
     description: 'Give players the ability to mark other players with a color that will show up as the color of their tracker icons.'
   },
@@ -40,6 +35,11 @@ const PRE_RELEASE = [
     title: 'New anomaly types',
     description: 'TBA'
   },
+  {
+    title: 'Ship abilities',
+    description: 'A new ship upgrade slot that lets players equip one of several new upgrades to their ship: tractor beam, signal cloak, or afterburner.',
+    completed: true
+  }
 ];
 
 const LONG_TERM = [
@@ -66,6 +66,9 @@ const template = document.getElementById('item-template');
 const addItemsToGroups = function(group, items) {
   items.forEach(item => {
     const element = template.cloneNode(true);
+    if (item.completed) {
+      element.className = 'roadmap-item completed';
+    }
     element.firstElementChild.innerHTML = item.title;
     element.lastElementChild.innerHTML = item.description;
     element.id = '';
@@ -73,5 +76,6 @@ const addItemsToGroups = function(group, items) {
   });
 }
 
-addItemsToGroups(document.getElementById('pre-release-items'), PRE_RELEASE);
-addItemsToGroups(document.getElementById('long-term-items'), LONG_TERM);
+//addItemsToGroups(document.getElementById('completed-items'), COMPLETED, true);
+addItemsToGroups(document.getElementById('pre-release-items'), PRE_RELEASE, false);
+addItemsToGroups(document.getElementById('long-term-items'), LONG_TERM, false);
