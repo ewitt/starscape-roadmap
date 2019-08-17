@@ -1,4 +1,31 @@
+const COMPLETED = 'completed';
+const DEPLOYED = 'deployed';
+const IN_PROGRESS = 'in-progress';
+const NEXT = 'next';
+
+const STATUS_NAMES = {
+  [COMPLETED]: 'Completed',
+  [DEPLOYED]: 'Live',
+  [IN_PROGRESS]: 'In progress',
+  [NEXT]: 'Next priority',
+};
+
 const PRE_RELEASE = [
+  {
+    title: 'Industry system overhaul',
+    description: 'Item crafting recipes should be overhauled, asteroids should have variables grades of ore, and there should be additional craftable tiers for each type of ship.',
+    status: IN_PROGRESS
+  },
+  {
+    title: 'Rebalance fighters and interceptors',
+    description: 'We need to face facts: the Paragon is king. Interceptors in general have combat superiority over fighters, so a rebalance is necessary to make fighters more viable options.',
+    status: NEXT
+  },
+  {
+    title: 'New Freighter class of ships',
+    description: 'Just like NPCs do with freighters, players should be able to operate a class of ships that they can set up as a store that other players can buy from directly.',
+    status: NEXT
+  },
   {
     title: 'Missions',
     description: 'Player should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.'
@@ -12,14 +39,6 @@ const PRE_RELEASE = [
     description: 'A type of station module where players can roleplay, receive missions from NPCs, and eventually play minigames.'
   },
   {
-    title: 'New Hauler class of ships',
-    description: 'Haulers will be a new type of ship which carry special cargo crates that can be picked up at station loading docks. Crates can be specific to missions, or standard items which will have variable prices across the galaxy, letting players buy low and sell high.'
-  },
-  {
-    title: 'Rebalance fighters and interceptors',
-    description: 'We need to face facts: the Paragon is king. Interceptors in general have combat superiority over fighters, so a rebalance is necessary to make fighters more viable options.'
-  },
-  {
     title: 'New Scout class of ships',
     description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
   },
@@ -28,17 +47,23 @@ const PRE_RELEASE = [
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
-    title: 'Player tagging',
-    description: 'Give players the ability to mark other players with a color that will show up as the color of their tracker icons.'
-  },
-  {
     title: 'New anomaly types',
     description: 'TBA'
   },
   {
+    title: 'Player tagging',
+    description: 'Give players the ability to mark other players with a color that will show up as the color of their tracker icons.',
+    status: COMPLETED
+  },
+  {
+    title: 'New Hauler class of ships',
+    description: 'Haulers will be a new type of ship which carry special cargo crates that can be picked up at station loading docks. Crates can be specific to missions, or standard items which will have variable prices across the galaxy, letting players buy low and sell high.',
+    status: DEPLOYED
+  },
+  {
     title: 'Ship abilities',
     description: 'A new ship upgrade slot that lets players equip one of several new upgrades to their ship: tractor beam, signal cloak, or afterburner.',
-    completed: true
+    status: DEPLOYED
   }
 ];
 
@@ -66,10 +91,12 @@ const template = document.getElementById('item-template');
 const addItemsToGroups = function(group, items) {
   items.forEach(item => {
     const element = template.cloneNode(true);
-    if (item.completed) {
-      element.className = 'roadmap-item completed';
+    if (item.status) {
+      element.className = `roadmap-item ${item.status}`;
+      element.firstElementChild.lastElementChild.innerHTML = STATUS_NAMES[item.status];
+      element.firstElementChild.lastElementChild.className = `item-status sans-font color-${item.status}`;
     }
-    element.firstElementChild.innerHTML = item.title;
+    element.firstElementChild.firstElementChild.innerHTML = item.title;
     element.lastElementChild.innerHTML = item.description;
     element.id = '';
     group.appendChild(element);
