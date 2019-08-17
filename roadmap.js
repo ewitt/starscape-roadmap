@@ -19,7 +19,7 @@ const PRE_RELEASE = [
   {
     title: 'Rebalance fighters and interceptors',
     description: 'We need to face facts: the Paragon is king. Interceptors in general have combat superiority over fighters, so a rebalance is necessary to make fighters more viable options.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'New Freighter class of ships',
