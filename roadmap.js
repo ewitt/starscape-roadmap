@@ -12,23 +12,14 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Industry system overhaul',
-    description: 'Item crafting recipes should be overhauled, asteroids should have variables grades of ore, and there should be additional craftable tiers for each type of ship.',
-    status: IN_PROGRESS
-  },
-  {
-    title: 'Rebalance fighters and interceptors',
-    description: 'We need to face facts: the Paragon is king. Interceptors in general have combat superiority over fighters, so a rebalance is necessary to make fighters more viable options.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'New Freighter class of ships',
     description: 'Just like NPCs do with freighters, players should be able to operate a class of ships that they can set up as a store that other players can buy from directly.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Missions',
-    description: 'Player should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.'
+    description: 'Player should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
+    status: NEXT
   },
   {
     title: 'Residential space stations',
@@ -36,7 +27,7 @@ const PRE_RELEASE = [
   },
   {
     title: 'Pilot lounge station module',
-    description: 'A type of station module where players can roleplay, receive missions from NPCs, and eventually play minigames.'
+    description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.'
   },
   {
     title: 'New Scout class of ships',
@@ -49,6 +40,16 @@ const PRE_RELEASE = [
   {
     title: 'New anomaly types',
     description: 'TBA'
+  },
+  {
+    title: 'Industry system overhaul',
+    description: 'Item crafting recipes should be overhauled, asteroids should have variables grades of ore, and there should be additional craftable tiers for each type of ship.',
+    status: COMPLETED
+  },
+  {
+    title: 'Rebalance fighters and interceptors',
+    description: 'We need to face facts: the Paragon is king. Interceptors in general have combat superiority over fighters, so a rebalance is necessary to make fighters more viable options.',
+    status: COMPLETED
   },
   {
     title: 'Player tagging',
