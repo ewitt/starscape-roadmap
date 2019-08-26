@@ -35,7 +35,15 @@ const PRE_RELEASE = [
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
+    title: 'Expanded tutorial missions',
+    description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.'
+  },
+  {
     title: 'New anomaly types',
+    description: 'TBA'
+  },
+  {
+    title: 'Infantry combat overhaul',
     description: 'TBA'
   },
   {
