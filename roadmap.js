@@ -47,7 +47,7 @@ const PRE_RELEASE = [
     description: 'TBA'
   },
   {
-    title: 'New Freighter class of ships',
+    title: 'New Vendor class of ships',
     description: 'Just like NPCs do with freighters, players should be able to operate a class of ships that they can set up as a store that other players can buy from directly.',
     status: COMPLETED
   },
