@@ -12,22 +12,19 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'New Freighter class of ships',
-    description: 'Just like NPCs do with freighters, players should be able to operate a class of ships that they can set up as a store that other players can buy from directly.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'Missions',
     description: 'Player should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
     status: NEXT
   },
   {
     title: 'Residential space stations',
-    description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.'
-  },
+    description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
+    status: NEXT
+},
   {
     title: 'Pilot lounge station module',
-    description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.'
+    description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.',
+    status: NEXT
   },
   {
     title: 'New Scout class of ships',
@@ -40,6 +37,11 @@ const PRE_RELEASE = [
   {
     title: 'New anomaly types',
     description: 'TBA'
+  },
+  {
+    title: 'New Freighter class of ships',
+    description: 'Just like NPCs do with freighters, players should be able to operate a class of ships that they can set up as a store that other players can buy from directly.',
+    status: COMPLETED
   },
   {
     title: 'Industry system overhaul',
