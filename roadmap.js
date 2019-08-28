@@ -41,7 +41,7 @@ const PRE_RELEASE = [
   },
   {
     title: 'Infantry combat overhaul',
-    description: 'Weapon equip slots should have a more rigid structure (primary, secondary, util). Some guns should be able to overheat or need to recharge, and there should be new tiers and appearances for armor and weapons.'
+    description: 'Weapon equip slots should have a more rigid structure (primary, secondary, utility). Some guns should be able to overheat or need to recharge, and there should be new tiers and appearances for armor and weapons.'
   },
   {
     title: 'New anomaly types',
