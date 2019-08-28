@@ -13,7 +13,7 @@ const STATUS_NAMES = {
 const PRE_RELEASE = [
   {
     title: 'Missions',
-    description: 'Player should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
+    description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
     status: IN_PROGRESS
   },
   {
