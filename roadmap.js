@@ -14,7 +14,7 @@ const PRE_RELEASE = [
   {
     title: 'Missions',
     description: 'Player should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Residential space stations',
@@ -27,6 +27,11 @@ const PRE_RELEASE = [
     status: NEXT
   },
   {
+    title: 'Expanded tutorial missions',
+    description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.',
+    status: NEXT
+  },
+  {
     title: 'New Scout class of ships',
     description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
   },
@@ -35,36 +40,32 @@ const PRE_RELEASE = [
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
-    title: 'Expanded tutorial missions',
-    description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.'
+    title: 'Infantry combat overhaul',
+    description: 'Weapon equip slots should have a more rigid structure (primary, secondary, util). Some guns should be able to overheat or need to recharge, and there should be new tiers and appearances for armor and weapons.'
   },
   {
     title: 'New anomaly types',
-    description: 'TBA'
-  },
-  {
-    title: 'Infantry combat overhaul',
-    description: 'TBA'
+    description: 'Drone hideouts and other surprises.'
   },
   {
     title: 'New Vendor class of ships',
     description: 'Just like NPCs do with freighters, players should be able to operate a class of ships that they can set up as a store that other players can buy from directly.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Industry system overhaul',
     description: 'Item crafting recipes should be overhauled, asteroids should have variables grades of ore, and there should be additional craftable tiers for each type of ship.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Rebalance fighters and interceptors',
     description: 'We need to face facts: the Paragon is king. Interceptors in general have combat superiority over fighters, so a rebalance is necessary to make fighters more viable options.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Player tagging',
     description: 'Give players the ability to mark other players with a color that will show up as the color of their tracker icons.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'New Hauler class of ships',
