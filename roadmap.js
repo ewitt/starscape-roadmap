@@ -32,12 +32,17 @@ const PRE_RELEASE = [
     status: NEXT
   },
   {
-    title: 'New Scout class of ships',
-    description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
+    title: 'Equippable items overhaul',
+    description: 'Add a new equipment tab to the assets screen. Weapons should have rigid equip slots (primary, secondary, utility). Players should be able to swap out clothing. There should be hotkey slots for ship deployables.',
+    status: NEXT
   },
   {
     title: 'Infantry combat overhaul',
-    description: 'Weapon equip slots should have a more rigid structure (primary, secondary, utility). Some guns should be able to overheat or need to recharge, and there should be new tiers and appearances for armor and weapons.'
+    description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for armor and weapons. Players should be able to crouch.'
+  },
+  {
+    title: 'New Scout class of ships',
+    description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
   },
   {
     title: 'New anomaly types',
