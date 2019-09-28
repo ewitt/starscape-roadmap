@@ -36,10 +36,6 @@ const PRE_RELEASE = [
     description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
   },
   {
-    title: 'Drone capital ship battles',
-    description: 'The ominous drone carrier anomalies will finally have a purpose.'
-  },
-  {
     title: 'Infantry combat overhaul',
     description: 'Weapon equip slots should have a more rigid structure (primary, secondary, utility). Some guns should be able to overheat or need to recharge, and there should be new tiers and appearances for armor and weapons.'
   },
@@ -82,7 +78,15 @@ const PRE_RELEASE = [
 const LONG_TERM = [
   {
     title: 'Landing on planets',
-    description: 'Performance concerns continue to be a problem here, so planets may need to wait to be added until after release. I want to take the time to do planets right and provide a really fluid experience with them.'
+    description: 'Performance concerns continue to be a problem here, so planets will need to wait to be added until after release. I want to take the time to do planets right and provide a really fluid experience with them.'
+  },
+  {
+    title: 'Expanded mining mechanics',
+    description: 'Deep core mining, detonators, and an overall more engaging experience.'
+  },
+  {
+    title: 'Drone capital ship battles',
+    description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
     title: 'Player-owned starbases',
