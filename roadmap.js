@@ -17,18 +17,18 @@ const PRE_RELEASE = [
     status: IN_PROGRESS
   },
   {
+    title: 'Expanded tutorial missions',
+    description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.',
+    status: IN_PROGRESS
+  },
+  {
     title: 'Residential space stations',
     description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
     status: NEXT
-},
+  },
   {
     title: 'Pilot lounge station module',
     description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.',
-    status: NEXT
-  },
-  {
-    title: 'Expanded tutorial missions',
-    description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.',
     status: NEXT
   },
   {
