@@ -12,19 +12,14 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Missions',
-    description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
+    title: 'Residential space stations',
+    description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
     status: IN_PROGRESS
   },
   {
     title: 'Expanded tutorial missions',
     description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.',
     status: IN_PROGRESS
-  },
-  {
-    title: 'Residential space stations',
-    description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
-    status: NEXT
   },
   {
     title: 'Pilot lounge station module',
@@ -47,6 +42,11 @@ const PRE_RELEASE = [
   {
     title: 'New anomaly types',
     description: 'Drone hideouts and other surprises.'
+  },
+  {
+    title: 'Missions',
+    description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
+    status: COMPLETED
   },
   {
     title: 'New Vendor class of ships',
