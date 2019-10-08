@@ -40,6 +40,10 @@ const PRE_RELEASE = [
     description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
   },
   {
+    title: 'Player squad system',
+    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).'
+  },
+  {
     title: 'New anomaly types',
     description: 'Drone hideouts and other surprises.'
   },
