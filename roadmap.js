@@ -24,7 +24,7 @@ const PRE_RELEASE = [
   {
     title: 'Pilot lounge station module',
     description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Equippable items overhaul',
