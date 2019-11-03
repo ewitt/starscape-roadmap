@@ -36,10 +36,6 @@ const PRE_RELEASE = [
     description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for armor and weapons. Players should be able to crouch.'
   },
   {
-    title: 'New Scout class of ships',
-    description: 'Since interceptors will likely take a speed hit, a new class of ship will be introduced with high speed and very low firepower.'
-  },
-  {
     title: 'Player squad system',
     description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).'
   },
@@ -96,6 +92,10 @@ const LONG_TERM = [
   {
     title: 'Drone capital ship battles',
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
+  },
+  {
+    title: 'New Scout class of ships',
+    description: 'A new class of ship will be introduced with high speed and very low firepower.'
   },
   {
     title: 'Player-owned starbases',
