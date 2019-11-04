@@ -29,7 +29,7 @@ const PRE_RELEASE = [
   {
     title: 'Equippable items overhaul',
     description: 'Add a new equipment tab to the assets screen. Weapons should have rigid equip slots (primary, secondary, utility). Players should be able to swap out clothing. There should be hotkey slots for ship deployables.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Infantry combat overhaul',
