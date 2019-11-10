@@ -88,6 +88,10 @@ const LONG_TERM = [
     description: 'Performance concerns continue to be a problem here, so planets will need to wait to be added until after release. I want to take the time to do planets right and provide a really fluid experience with them.'
   },
   {
+    title: 'Missiles',
+    description: 'New combat system which will introduce several types of missile with variable damages and agilities which can be utilized by both NPCs and players.'
+  },
+  {
     title: 'Expanded mining mechanics',
     description: 'Deep core mining, detonators, and an overall more engaging experience.'
   },
