@@ -12,11 +12,6 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Residential space stations',
-    description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'Expanded tutorial missions',
     description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.',
     status: IN_PROGRESS
@@ -27,17 +22,14 @@ const PRE_RELEASE = [
     status: IN_PROGRESS
   },
   {
-    title: 'Equippable items overhaul',
-    description: 'Add a new equipment tab to the assets screen. Weapons should have rigid equip slots (primary, secondary, utility). Players should be able to swap out clothing. There should be hotkey slots for ship deployables.',
+    title: 'Infantry combat overhaul',
+    description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for armor and weapons. Players should be able to crouch.',
     status: IN_PROGRESS
   },
   {
-    title: 'Infantry combat overhaul',
-    description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for armor and weapons. Players should be able to crouch.'
-  },
-  {
     title: 'Player squad system',
-    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).'
+    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
+    status: NEXT
   },
   {
     title: 'New anomaly types',
@@ -46,6 +38,16 @@ const PRE_RELEASE = [
   {
     title: 'Missions',
     description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
+    status: COMPLETED
+  },
+  {
+    title: 'Residential space stations',
+    description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
+    status: COMPLETED
+  },
+  {
+    title: 'Equippable items overhaul',
+    description: 'Add a new equipment tab to the assets screen. Weapons should have rigid equip slots (primary, secondary, utility). Players should be able to swap out clothing. There should be hotkey slots for ship deployables.',
     status: COMPLETED
   },
   {
