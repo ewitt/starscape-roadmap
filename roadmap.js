@@ -22,18 +22,22 @@ const PRE_RELEASE = [
     status: IN_PROGRESS
   },
   {
-    title: 'Infantry combat overhaul',
-    description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for armor and weapons. Players should be able to crouch.',
+    title: 'Player squad system',
+    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
     status: IN_PROGRESS
   },
   {
-    title: 'Player squad system',
-    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
+    title: 'New anomaly types',
+    description: 'Drone hideouts and other surprises.',
     status: NEXT
   },
   {
-    title: 'New anomaly types',
-    description: 'Drone hideouts and other surprises.'
+    title: 'Cleanup and polish',
+    description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.'
+  },
+  {
+    title: 'Performance audit',
+    description: 'Auditing client and server performance to ensure launch goes smoothly.'
   },
   {
     title: 'Missions',
@@ -48,6 +52,11 @@ const PRE_RELEASE = [
   {
     title: 'Equippable items overhaul',
     description: 'Add a new equipment tab to the assets screen. Weapons should have rigid equip slots (primary, secondary, utility). Players should be able to swap out clothing. There should be hotkey slots for ship deployables.',
+    status: COMPLETED
+  },
+  {
+    title: 'Infantry combat improvements',
+    description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for weapons.',
     status: COMPLETED
   },
   {
@@ -89,7 +98,7 @@ const LONG_TERM = [
   },
   {
     title: 'Missiles',
-    description: 'New combat system which will introduce several types of missile with variable damages and agilities which can be utilized by both NPCs and players.'
+    description: 'New space combat feature which will introduce several types of missile with variable damages and agilities which can be utilized by both NPCs and players.'
   },
   {
     title: 'Expanded mining mechanics',
@@ -104,11 +113,15 @@ const LONG_TERM = [
     description: 'A new class of ship will be introduced with high speed and very low firepower.'
   },
   {
+    title: 'Expanded infantry combat',
+    description: 'There should be infantry combat-centric anomalies such as the Dreadnought raid and abandoned stations, and new mechanics to make combat more tactical, such as crouching.'
+  },
+  {
     title: 'Player-owned starbases',
     description: 'TBA'
   },
   {
-    title: 'Multiplayer capital ships',
+    title: 'Multiplayer ships',
     description: 'TBA'
   },
   {
