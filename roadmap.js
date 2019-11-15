@@ -40,6 +40,10 @@ const PRE_RELEASE = [
     description: 'Auditing client and server performance to ensure launch goes smoothly.'
   },
   {
+    title: 'Internationalization',
+    description: 'Allow players to play the game with the interface set to languages other than English.'
+  },
+  {
     title: 'Missions',
     description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
     status: COMPLETED
