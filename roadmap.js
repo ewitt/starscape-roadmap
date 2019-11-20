@@ -22,14 +22,9 @@ const PRE_RELEASE = [
     status: IN_PROGRESS
   },
   {
-    title: 'Player squad system',
-    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
-    status: IN_PROGRESS
-  },
-  {
     title: 'New anomaly types',
     description: 'Drone hideouts and other surprises.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Cleanup and polish',
@@ -61,6 +56,11 @@ const PRE_RELEASE = [
   {
     title: 'Infantry combat improvements',
     description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for weapons.',
+    status: COMPLETED
+  },
+  {
+    title: 'Player squad system',
+    description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
     status: COMPLETED
   },
   {
