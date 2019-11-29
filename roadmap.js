@@ -12,11 +12,6 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Expanded tutorial missions',
-    description: 'Additional optional tutorials to introduce new players to the many different aspects of the game.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'Pilot lounge station module',
     description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.',
     status: IN_PROGRESS
@@ -41,6 +36,11 @@ const PRE_RELEASE = [
   {
     title: 'Missions',
     description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
+    status: COMPLETED
+  },
+  {
+    title: 'Expanded tutorial',
+    description: 'Additional optional tutorial missions to introduce new players to the many different aspects of the game.',
     status: COMPLETED
   },
   {
