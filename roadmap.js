@@ -12,26 +12,19 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Pilot lounge station module',
-    description: 'A type of station module where players can receive missions from NPCs, roleplay, and eventually play minigames.',
-    status: IN_PROGRESS
-  },
-  {
-    title: 'New anomaly types',
-    description: 'Drone hideouts and other surprises.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'Cleanup and polish',
-    description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.'
+    description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
+    status: NEXT
   },
   {
     title: 'Performance audit',
-    description: 'Auditing client and server performance to ensure launch goes smoothly.'
+    description: 'Auditing client and server performance to ensure launch goes smoothly.',
+    status: NEXT
   },
   {
     title: 'Internationalization',
-    description: 'Allow players to play the game with the interface set to languages other than English.'
+    description: 'Allow players to play the game with the interface set to languages other than English.',
+    status: NEXT
   },
   {
     title: 'Missions',
@@ -61,6 +54,16 @@ const PRE_RELEASE = [
   {
     title: 'Player squad system',
     description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
+    status: COMPLETED
+  },
+  {
+    title: 'Pilot lounge station module',
+    description: 'A type of residential station module where players can roleplay in a lounge setting, and eventually receive missions and play minigames.',
+    status: COMPLETED
+  },
+  {
+    title: 'New anomaly types',
+    description: 'Drone hideouts and wrecked spice platforms will be added to make anomaly hunting more interesting.',
     status: COMPLETED
   },
   {
