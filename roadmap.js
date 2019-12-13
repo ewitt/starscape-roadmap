@@ -124,6 +124,10 @@ const LONG_TERM = [
     description: 'There should be infantry combat-centric anomalies such as the Dreadnought raid and abandoned stations, and new mechanics to make combat more tactical, such as crouching.'
   },
   {
+    title: 'Faction warfare mechanics',
+    description: 'New ways of more formally supporting your favorite NPC factions in their quests for galactic dominance.'
+  },
+  {
     title: 'Player-owned starbases',
     description: 'TBA'
   },
