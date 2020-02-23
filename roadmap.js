@@ -26,7 +26,7 @@ const PRE_RELEASE = [
   {
     title: 'Cleanup and polish',
     description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
-    status: IN_PROGRESS
+    status: NEXT
   },
   {
     title: 'Performance audit',
