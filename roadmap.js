@@ -2,15 +2,27 @@ const COMPLETED = 'completed';
 const DEPLOYED = 'deployed';
 const IN_PROGRESS = 'in-progress';
 const NEXT = 'next';
+const DELAYED = 'delayed';
 
 const STATUS_NAMES = {
   [COMPLETED]: 'Completed',
   [DEPLOYED]: 'Live',
   [IN_PROGRESS]: 'In progress',
   [NEXT]: 'Next priority',
+  [DELAYED]: 'Delayed'
 };
 
 const PRE_RELEASE = [
+  {
+    title: 'Frigates',
+    description: 'The largest pre-release class of ship in the game. Six turret slots and very expensive.',
+    status: IN_PROGRESS
+  },
+  {
+    title: 'Player factions',
+    description: 'A rudimentary faction system where players can recruit others, assign basic roles to members, and have a visible faction tag.',
+    status: NEXT
+  },
   {
     title: 'Cleanup and polish',
     description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
@@ -24,7 +36,12 @@ const PRE_RELEASE = [
   {
     title: 'Internationalization',
     description: 'Allow players to play the game with the interface set to languages other than English.',
-    status: NEXT
+    status: DELAYED
+  },
+  {
+    title: 'Corvettes',
+    description: 'A large and powerful class of ship that players can fly. Different types of turrets can be attached to change up strategy.',
+    status: DEPLOYED
   },
   {
     title: 'Missions',
@@ -100,8 +117,8 @@ const PRE_RELEASE = [
 
 const LONG_TERM = [
   {
-    title: 'Landing on planets',
-    description: 'Performance concerns continue to be a problem here, so planets will need to wait to be added until after release. I want to take the time to do planets right and provide a really fluid experience with them.'
+    title: 'Player-owned structures',
+    description: 'Expensive stations and strategic structures which can be built in wild space, allowing for advanced gameplay mechanics.'
   },
   {
     title: 'Missiles',
@@ -116,10 +133,6 @@ const LONG_TERM = [
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
-    title: 'New Scout class of ships',
-    description: 'A new class of ship will be introduced with high speed and very low firepower.'
-  },
-  {
     title: 'Expanded infantry combat',
     description: 'There should be infantry combat-centric anomalies such as the Dreadnought raid and abandoned stations, and new mechanics to make combat more tactical, such as crouching.'
   },
@@ -128,8 +141,8 @@ const LONG_TERM = [
     description: 'New ways of more formally supporting your favorite NPC factions in their quests for galactic dominance.'
   },
   {
-    title: 'Player-owned starbases',
-    description: 'TBA'
+    title: 'Landing on planets',
+    description: 'Land on terrestrial planets with unique terrain, flora, and possibly fauna. Building outposts on planet surfaces.'
   },
   {
     title: 'Multiplayer ships',
