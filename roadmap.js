@@ -26,7 +26,7 @@ const PRE_RELEASE = [
   {
     title: 'Cleanup and polish',
     description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Performance audit',
@@ -46,42 +46,42 @@ const PRE_RELEASE = [
   {
     title: 'Missions',
     description: 'Players should be able to complete repeatable missions for each of the six factions. They should also be able to receive missions from standalone NPCs.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Expanded tutorial',
     description: 'Additional optional tutorial missions to introduce new players to the many different aspects of the game.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Residential space stations',
     description: 'Secure systems should be able to spawn residential space stations. Give players the ability to rent an apartment for a fee. Let players decorate their apartments with rewards and furniture.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Equippable items overhaul',
     description: 'Add a new equipment tab to the assets screen. Weapons should have rigid equip slots (primary, secondary, utility). Players should be able to swap out clothing. There should be hotkey slots for ship deployables.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Infantry combat improvements',
     description: 'Some guns should be able to overheat or need to recharge. There should be new tiers and appearances for weapons.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Player squad system',
     description: 'Players should be able to invite each other to squads, allowing them to see the location of other squad members and warp directly to them (if they are in the same system).',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'Pilot lounge station module',
     description: 'A type of residential station module where players can roleplay in a lounge setting, and eventually receive missions and play minigames.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'New anomaly types',
     description: 'Drone hideouts and wrecked spice platforms will be added to make anomaly hunting more interesting.',
-    status: COMPLETED
+    status: DEPLOYED
   },
   {
     title: 'New Vendor class of ships',
