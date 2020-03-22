@@ -14,14 +14,9 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Frigates',
-    description: 'The largest pre-release class of ship in the game. Six turret slots and very expensive.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'Player factions',
     description: 'A rudimentary faction system where players can recruit others, assign basic roles to members, and have a visible faction tag.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Cleanup and polish',
@@ -37,6 +32,11 @@ const PRE_RELEASE = [
     title: 'Internationalization',
     description: 'Allow players to play the game with the interface set to languages other than English.',
     status: DELAYED
+  },
+  {
+    title: 'Frigates',
+    description: 'The largest pre-release class of ship in the game. Six turret slots and very expensive.',
+    status: DEPLOYED
   },
   {
     title: 'Corvettes',
