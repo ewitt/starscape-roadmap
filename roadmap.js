@@ -14,11 +14,6 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Player factions',
-    description: 'A rudimentary faction system where players can recruit others, assign basic roles to members, and have a visible faction tag.',
-    status: IN_PROGRESS
-  },
-  {
     title: 'Cleanup and polish',
     description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
     status: NEXT
@@ -32,6 +27,11 @@ const PRE_RELEASE = [
     title: 'Internationalization',
     description: 'Allow players to play the game with the interface set to languages other than English.',
     status: DELAYED
+  },
+  {
+    title: 'Player factions',
+    description: 'A rudimentary faction system where players can recruit others, assign basic roles to members, and have a visible faction tag.',
+    status: DEPLOYED
   },
   {
     title: 'Frigates',
