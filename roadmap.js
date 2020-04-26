@@ -21,7 +21,7 @@ const PRE_RELEASE = [
   {
     title: 'Performance audit',
     description: 'Auditing client and server performance to ensure launch goes smoothly.',
-    status: NEXT
+    status: IN_PROGRESS
   },
   {
     title: 'Internationalization',
