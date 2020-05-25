@@ -14,6 +14,11 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
+    title: 'Test server',
+    description: 'An invite-only separate server for the game to allow for more rigorous testing of features before release.',
+    status: COMPLETED
+  },
+  {
     title: 'Cleanup and polish',
     description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
     status: IN_PROGRESS
@@ -27,6 +32,25 @@ const PRE_RELEASE = [
     title: 'Internationalization',
     description: 'Allow players to play the game with the interface set to languages other than English.',
     status: DELAYED
+  },
+  {
+    title: 'Wormholes',
+    description: 'An unpredictable anomaly which allows for instantaneous travel to systems across the galaxy.'
+  },
+  {
+    title: 'Syndicate frontier outposts',
+    description: 'A rare anomaly which has daily deals on items and sells blue-tier spice variants.',
+    status: DEPLOYED
+  },
+  {
+    title: 'New scanning system',
+    description: 'A new mini-game which uses a solar system map to scan down anomalies, and significant anomaly changes and rebalances.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Dueling',
+    description: 'System which gives players the option to participate in non-lethal PVP duels in secure systems.',
+    status: DEPLOYED
   },
   {
     title: 'Player factions',
@@ -125,19 +149,23 @@ const LONG_TERM = [
     description: 'New space combat feature which will introduce several types of missile with variable damages and agilities which can be utilized by both NPCs and players.'
   },
   {
-    title: 'Expanded mining mechanics',
-    description: 'Deep core mining, detonators, and an overall more engaging experience.'
-  },
-  {
     title: 'Drone capital ship battles',
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
+  },
+  {
+    title: 'Expanded mining mechanics',
+    description: 'Deep core mining, detonators, and an overall more engaging experience.'
   },
   {
     title: 'Expanded infantry combat',
     description: 'There should be infantry combat-centric anomalies such as the Dreadnought raid and abandoned stations, and new mechanics to make combat more tactical, such as crouching.'
   },
   {
-    title: 'Faction warfare mechanics',
+    title: 'Expanded wormhole anomalies',
+    description: 'Uncharted wormhole systems, stable wormholes, etc.'
+  },
+  {
+    title: 'NPC faction warfare mechanics',
     description: 'New ways of more formally supporting your favorite NPC factions in their quests for galactic dominance.'
   },
   {
@@ -145,11 +173,15 @@ const LONG_TERM = [
     description: 'Land on terrestrial planets with unique terrain, flora, and possibly fauna. Building outposts on planet surfaces.'
   },
   {
-    title: 'Multiplayer ships',
+    title: 'Player-owned capital ships',
     description: 'TBA'
   },
   {
-    title: 'Wormhole anomalies',
+    title: 'Lore-driven mission campaigns',
+    description: 'TBA'
+  },
+  {
+    title: 'Multiplayer ships',
     description: 'TBA'
   }
 ];
