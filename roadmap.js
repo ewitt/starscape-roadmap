@@ -35,7 +35,8 @@ const PRE_RELEASE = [
   },
   {
     title: 'Wormholes',
-    description: 'An unpredictable anomaly which allows for instantaneous travel to systems across the galaxy.'
+    description: 'An unpredictable anomaly which allows for instantaneous travel to systems across the galaxy.',
+    status: DEPLOYED
   },
   {
     title: 'Syndicate frontier outposts',
@@ -43,7 +44,7 @@ const PRE_RELEASE = [
     status: DEPLOYED
   },
   {
-    title: 'New scanning system',
+    title: 'Manual scanning system',
     description: 'A new mini-game which uses a solar system map to scan down anomalies, and significant anomaly changes and rebalances.',
     status: DEPLOYED
   },
