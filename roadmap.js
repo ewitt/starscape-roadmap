@@ -14,11 +14,6 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Test server',
-    description: 'An invite-only separate server for the game to allow for more rigorous testing of features before release.',
-    status: COMPLETED
-  },
-  {
     title: 'Cleanup and polish',
     description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
     status: IN_PROGRESS
@@ -32,6 +27,26 @@ const PRE_RELEASE = [
     title: 'Internationalization',
     description: 'Allow players to play the game with the interface set to languages other than English.',
     status: DELAYED
+  },
+  {
+    title: 'Warmods',
+    description: 'Active upgrades for warships which greatly increase opportunities for strategic gameplay.',
+    status: DEPLOYED
+  },
+  {
+    title: 'New core star systems',
+    description: 'A group of six new core systems around the Citadel to improve traffic conditions post-release.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Drone battleship',
+    description: 'An extremely powerful drone boss which requires teaming up to be able to stand a chance.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Test server',
+    description: 'An invite-only separate server for the game to allow for more rigorous testing of features before release.',
+    status: DEPLOYED
   },
   {
     title: 'Wormholes',
