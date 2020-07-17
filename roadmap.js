@@ -14,21 +14,6 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Cleanup and polish',
-    description: 'Ensuring that all placeholder sounds, textures, and models in the game have been replaced with production versions.',
-    status: IN_PROGRESS
-  },
-  {
-    title: 'Performance audit',
-    description: 'Auditing client and server performance to ensure launch goes smoothly.',
-    status: IN_PROGRESS
-  },
-  {
-    title: 'Internationalization',
-    description: 'Allow players to play the game with the interface set to languages other than English.',
-    status: DELAYED
-  },
-  {
     title: 'Warmods',
     description: 'Active upgrades for warships which greatly increase opportunities for strategic gameplay.',
     status: DEPLOYED
@@ -158,7 +143,13 @@ const PRE_RELEASE = [
 const LONG_TERM = [
   {
     title: 'Player-owned structures',
-    description: 'Expensive stations and strategic structures which can be built in wild space, allowing for advanced gameplay mechanics.'
+    description: 'Expensive stations and strategic structures which can be built in wild space, allowing for advanced gameplay mechanics.',
+    status: NEXT
+  },
+  {
+    title: 'Internationalization',
+    description: 'Allow players to play the game with the interface set to languages other than English.',
+    status: DELAYED
   },
   {
     title: 'Missiles',
