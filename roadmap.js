@@ -156,6 +156,10 @@ const LONG_TERM = [
     description: 'New space combat feature which will introduce several types of missile with variable damages and agilities which can be utilized by both NPCs and players.'
   },
   {
+    title: 'Custom key bindings',
+    description: 'Allow players to rebind key controls to whatever they want.'
+  },
+  {
     title: 'Drone capital ship battles',
     description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
