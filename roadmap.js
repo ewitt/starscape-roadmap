@@ -14,6 +14,66 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
+    title: 'News terminals',
+    description: 'Screens in stations which show player market stats, recent system captures, and bounties.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Player bounties',
+    description: 'Ability to set bounties on players who kill you, and claim bounties on players by destroying their ships.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Ship salvaging',
+    description: 'Ships are not permanently lost on death; instead, you can salvage them for resources or credits.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Planetary ring visual overhaul',
+    description: 'Planetary ring visuals were vastly improved. Each planet now has a unique ring system.',
+    status: DEPLOYED
+  },
+  {
+    title: 'NPC faction warfare mechanics',
+    description: 'Formally supporting your favorite NPC factions in their quests for galactic dominance. Contested systems. Faction rank structures. Dynamic borders.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Astronomical realism',
+    description: 'Binary/trinary star systems and realistic planet orbits.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Destroyers',
+    description: 'A large and powerful class of player ship that use docking tubes to connect to stations.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Vexnium',
+    description: 'A new, mysterious resource anomaly.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Item volume',
+    description: 'The inventory has limited capacity, and items take up different amounts of space.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Player marketplace',
+    description: 'A persistent player market allowing for placing of buy and sell orders, and fulfillment of orders while users are offline.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Flak turrets',
+    description: 'A new turret type allowing for better point defense against small craft.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Targeted warp disruption',
+    description: 'The ability to lock on to other players to prevent them from warping. Locking warp disruption bubbles to wild space.',
+    status: DEPLOYED
+  },
+  {
     title: 'Warmods',
     description: 'Active upgrades for warships which greatly increase opportunities for strategic gameplay.',
     status: DEPLOYED
@@ -142,26 +202,30 @@ const PRE_RELEASE = [
 
 const LONG_TERM = [
   {
+    title: 'Astronomical realism v2',
+    description: 'System geography will be much more realistic. Alters distribution of planets, orbits, and types of planets.',
+    status: COMPLETED
+  },
+  {
+    title: 'Overhauled system map',
+    description: 'New-and-improved solar system map giving much more detailed information about celestial bodies.',
+    status: IN_PROGRESS
+  },
+  {
     title: 'Player-owned structures',
     description: 'Expensive stations and strategic structures which can be built in wild space, allowing for advanced gameplay mechanics.',
-    status: NEXT
   },
   {
     title: 'Internationalization',
     description: 'Allow players to play the game with the interface set to languages other than English.',
-    status: DELAYED
   },
   {
-    title: 'Missiles',
+    title: 'Turret overhaul',
     description: 'New space combat feature which will introduce several types of missile with variable damages and agilities which can be utilized by both NPCs and players.'
   },
   {
     title: 'Custom key bindings',
     description: 'Allow players to rebind key controls to whatever they want.'
-  },
-  {
-    title: 'Drone capital ship battles',
-    description: 'The ominous drone carrier anomalies will finally have a purpose.'
   },
   {
     title: 'Expanded mining mechanics',
@@ -174,10 +238,6 @@ const LONG_TERM = [
   {
     title: 'Expanded wormhole anomalies',
     description: 'Uncharted wormhole systems, stable wormholes, etc.'
-  },
-  {
-    title: 'NPC faction warfare mechanics',
-    description: 'New ways of more formally supporting your favorite NPC factions in their quests for galactic dominance.'
   },
   {
     title: 'Landing on planets',
