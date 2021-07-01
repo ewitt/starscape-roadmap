@@ -1,15 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starscape Roadmap</title>
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon-dark.png">
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="roadmap.css">
   </head>
   <body>
     <div id='background'>
       <div id='container'>
         <div class='logo-container'>
-          <img src='logo.png' class='logo'/>
+          <img src='logo.png' class='logo' alt="Starscape Logo"/>
         </div>
         <div id='roadmap-label' class='sans-font'>Development Roadmap</div>
+        <p id='roadmap-label-sub' class='sans-font'>The roadmap is constantly updated to reflect the current priorities of the game. A dev-blog is written often on the discord - <a href="https://discord.gg/qPd7wXZmUn">which you should totally join by the way.</a></p>
         <div id='items'>
           <div id='long-term' class='item-category'>
             <div class='timeframe-label sans-font' id='long-term-label'>Planned features</div>
@@ -29,6 +34,7 @@
       </div>
       <div class='item-description sans-font'>Description</div>
     </div>
-    <script src='roadmap.js'></script>
+    <!-- type="module" makes the javascript run BEFORE the site is shown to the user, preventing the weird flickering that happens when you are populating the roadmap items.-->
+    <script type="module" src='roadmap.js'></script>
   </body>
 </html>
