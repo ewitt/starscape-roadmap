@@ -24,7 +24,7 @@ a {
 }
 
 #background {
-  background-image: url('./images/explore.png');
+  background-image: url('./images/nebula.png');
   background-attachment: fixed;
   background-size: cover;
   width: calc(100% - 40px);
