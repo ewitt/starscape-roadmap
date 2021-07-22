@@ -26,6 +26,7 @@ a {
 #background {
   background-image: url('./images/nebula.png');
   background-repeat: repeat;
+  background-attachment: fixed;
   width: calc(100% - 40px);
   padding-left: 20px;
   padding-right: 20px;
