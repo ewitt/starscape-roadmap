@@ -6,7 +6,8 @@ body {
 }
 
 a {
-  text-decoration:  none;
+  text-decoration: none;
+  color: #CB8;
 }
 
 .link {
@@ -57,7 +58,7 @@ a {
 #roadmap-label {
   font-weight: bold;
   font-size: 24px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-top: 40px;
 }
 
@@ -168,8 +169,8 @@ a {
 }
 
 .roadmap-item:hover {
-  transform: scale(1.025);
-  transition: 100ms linear;
+  transform: scale(1.02);
+  transition: 80ms linear;
 }
 
 .delayed {

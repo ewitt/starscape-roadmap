@@ -14,6 +14,31 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
+    title: 'Hacking minigame',
+    description: 'Secure containers found at anomalies will need to be hacked into before they can be accessed.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Ancient structure anomalies',
+    description: 'Ancient structures will spawn in anomalies with a new class of loot.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Planetary ring mining',
+    description: 'Players will be able to warp to planetary rings and mine large asteroid deposits.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Astronomical realism v2',
+    description: 'System geography will be much more realistic. Alters distribution of planets, orbits, and types of planets.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Overhauled system map',
+    description: 'New-and-improved solar system map giving much more detailed information about celestial bodies.',
+    status: DEPLOYED
+  },
+  {
     title: 'News terminals',
     description: 'Screens in stations which show player market stats, recent system captures, and bounties.',
     status: DEPLOYED
@@ -202,18 +227,44 @@ const PRE_RELEASE = [
 
 const LONG_TERM = [
   {
-    title: 'Astronomical realism v2',
-    description: 'System geography will be much more realistic. Alters distribution of planets, orbits, and types of planets.',
-    status: COMPLETED
-  },
-  {
-    title: 'Overhauled system map',
-    description: 'New-and-improved solar system map giving much more detailed information about celestial bodies.',
+    title: 'Player-owned stations',
+    description: 'Space stations owned and operated by players. <a href="https://youtu.be/eZoh2-dOLvo" target="_blank">Watch the Reveal</a>',
     status: IN_PROGRESS
   },
   {
-    title: 'Player-owned structures',
-    description: 'Expensive stations and strategic structures which can be built in wild space, allowing for advanced gameplay mechanics.',
+    title: 'Accelerator program part two',
+    description: 'The other project we\'ve been working on during the accelerator project, to be announced soon...',
+    status: IN_PROGRESS
+  },
+  {
+    title: 'Faction warfare cleanup',
+    description: 'Fixing bugs and balance issues related to faction warfare, and reducing the number of contested systems.',
+    status: NEXT
+  },
+  {
+    title: 'Region-locked resources',
+    description: 'New resources that are locked to specific regions of the galaxy to encourage territorial conflict and make exploration/industry significantly more interesting.',
+    status: NEXT
+  },
+  {
+    title: 'Industry overhaul',
+    description: 'Crafting recipes will be completely redone to introduce intermediate components. Refining and crafting of all items will take time.',
+    status: NEXT
+  },
+  {
+    title: 'Rarity overhaul',
+    description: 'Significant changes to the rarity system to better fit modern Starscape. Will most likely involve removing colored rarity tiers and replacing them with a more robust system that better distinguishes between items that are manufactured and items that are found as loot. Ships will use a unique system.',
+    status: NEXT
+  },
+  {
+    title: 'Ship loadout overhaul',
+    description: 'Warmods, rigs, focus slots, abilities, and upgrades will all be replaced with a new passive/active ship module system. Ships will have different numbers of modules based on size and class.',
+    status: NEXT
+  },
+  {
+    title: 'Hauling items overhaul',
+    description: 'Changing unused crate slots to just give players additional inventory space instead of requiring the annoying process of transferring items to and from crates.',
+    status: NEXT
   },
   {
     title: 'Internationalization',
