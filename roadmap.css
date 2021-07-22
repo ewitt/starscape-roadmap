@@ -5,9 +5,17 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration:  none;
+}
+
+.link {
+  display: block;
+}
+
 .logo-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 432px;
 }
 
 .logo {
@@ -16,7 +24,7 @@ body {
 }
 
 #background {
-  background-image: url('nebula.png');
+  background-image: url('./images/explore.png');
   background-attachment: fixed;
   background-size: cover;
   width: calc(100% - 40px);
@@ -33,6 +41,9 @@ body {
 
 #items {
   margin-top: 40px;
+}
+
+.width-group {
   width: 100%;
   max-width: 600px;
 }
@@ -44,8 +55,100 @@ body {
 }
 
 #roadmap-label {
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 24px;
   letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+#subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+#cta-buttons {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#social-buttons {
+  flex-basis: 51%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-button {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-logo {
+  flex-basis: 32px;
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.cta-label {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #EEE;
+}
+
+#play-button {
+  flex-basis: 47%;
+  background: #224422;
+  border: 1px solid #448844;
+}
+
+#play-button:hover {
+  border: 1px solid #55aa55;
+}
+
+#play-button:hover div {
+  color: #CCFFCC;
+}
+
+#discord-button {
+  flex-basis: 48%;
+  background: #2a3044;
+  border: 1px solid #446688;
+}
+
+#discord-button:hover {
+  border: 1px solid #6688aa;
+}
+
+#discord-button:hover div {
+  color: #CCDDFF;
+}
+
+#youtube-button {
+  flex-basis: 48%;
+  background: #440000;
+  border: 1px solid #880000;
+}
+
+#youtube-button:hover {
+  border: 1px solid #aa0000;
+}
+
+#youtube-button:hover div {
+  color: #FFCCCC;
 }
 
 .timeframe-label {
@@ -135,4 +238,18 @@ body {
 
 .item-category {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  #cta-buttons {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  #social-buttons {
+    flex-basis: 100%;
+  }
+  #play-button {
+    flex-basis: 100%;
+    margin-bottom: 12px;
+  }
 }
