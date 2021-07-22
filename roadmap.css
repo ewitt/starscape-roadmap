@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background-color: black;
+  height:100%;
+  width: 100%;
 }
 
 .logo-container {
@@ -35,6 +37,10 @@ body {
   max-width: 600px;
 }
 
+a {
+  color: #CC6;
+}
+
 .sans-font {
   font-family: sans-serif;
   line-height: 1.25;
@@ -44,6 +50,12 @@ body {
 #roadmap-label {
   font-size: 22px;
   letter-spacing: 2px;
+}
+
+#roadmap-label-sub {
+  padding-left: 25%;
+  padding-right: 25%;
+  letter-spacing: 1px;
 }
 
 .timeframe-label {
@@ -58,6 +70,13 @@ body {
   border: 1px solid rgba(255,255,255,0.2);
   padding: 10px;
   margin-bottom: 10px;
+  position:relative;
+  transition: 100ms linear;
+}
+
+.roadmap-item:hover {
+  transform: scale(1.1);
+  transition: 100ms linear;
 }
 
 .delayed {
