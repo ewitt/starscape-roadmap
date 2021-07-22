@@ -37,10 +37,6 @@ body {
   max-width: 600px;
 }
 
-a {
-  color: #CC6;
-}
-
 .sans-font {
   font-family: sans-serif;
   line-height: 1.25;
@@ -50,12 +46,6 @@ a {
 #roadmap-label {
   font-size: 22px;
   letter-spacing: 2px;
-}
-
-#roadmap-label-sub {
-  padding-left: 25%;
-  padding-right: 25%;
-  letter-spacing: 1px;
 }
 
 .timeframe-label {
@@ -75,7 +65,7 @@ a {
 }
 
 .roadmap-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.025);
   transition: 100ms linear;
 }
 
