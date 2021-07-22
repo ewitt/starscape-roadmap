@@ -237,6 +237,11 @@ const LONG_TERM = [
     status: IN_PROGRESS
   },
   {
+    title: 'Tutorial overhaul',
+    description: 'The game tutorial is being reworked in order to provide a better first-time experience.',
+    status: IN_PROGRESS
+  },
+  {
     title: 'Faction warfare cleanup',
     description: 'Fixing bugs and balance issues related to faction warfare, and reducing the number of contested systems.',
     status: NEXT
