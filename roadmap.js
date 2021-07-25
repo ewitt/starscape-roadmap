@@ -227,6 +227,11 @@ const PRE_RELEASE = [
 
 const LONG_TERM = [
   {
+    title: 'Hauling items overhaul',
+    description: 'Changing unused crate slots to just give players additional inventory space instead of requiring the annoying process of transferring items to and from crates.',
+    status: COMPLETED
+  },
+  {
     title: 'Player-owned stations',
     description: 'Space stations owned and operated by players. <a href="https://youtu.be/eZoh2-dOLvo" target="_blank">Watch the Reveal</a>',
     status: IN_PROGRESS
@@ -264,11 +269,6 @@ const LONG_TERM = [
   {
     title: 'Ship loadout overhaul',
     description: 'Warmods, rigs, focus slots, abilities, and upgrades will all be replaced with a new passive/active ship module system. Ships will have different numbers of modules based on size and class.',
-    status: NEXT
-  },
-  {
-    title: 'Hauling items overhaul',
-    description: 'Changing unused crate slots to just give players additional inventory space instead of requiring the annoying process of transferring items to and from crates.',
     status: NEXT
   },
   {
