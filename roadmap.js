@@ -247,6 +247,11 @@ const LONG_TERM = [
     status: IN_PROGRESS
   },
   {
+    title: 'Interface/HUD overhaul',
+    description: 'We have embarked on an effort to drastically improve the game interface, with our main focuses surrounding a flight HUD redesign and hotkey visibility.',
+    status: IN_PROGRESS
+  },
+  {
     title: 'Faction warfare cleanup',
     description: 'Fixing bugs and balance issues related to faction warfare, and reducing the number of contested systems.',
     status: NEXT
