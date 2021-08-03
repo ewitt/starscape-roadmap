@@ -252,6 +252,16 @@ const LONG_TERM = [
     status: IN_PROGRESS
   },
   {
+    title: 'Industry overhaul',
+    description: 'Crafting recipes will be completely redone to introduce intermediate components. Refining and crafting of all items will take time.',
+    status: IN_PROGRESS
+  },
+  {
+    title: 'Rarity overhaul',
+    description: 'Significant changes to the rarity system to better fit modern Starscape. Ships will use a unique rarity system that better reflects classes of ship.',
+    status: IN_PROGRESS
+  },
+  {
     title: 'Faction warfare cleanup',
     description: 'Fixing bugs and balance issues related to faction warfare, and reducing the number of contested systems.',
     status: NEXT
@@ -259,16 +269,6 @@ const LONG_TERM = [
   {
     title: 'Region-locked resources',
     description: 'New resources that are locked to specific regions of the galaxy to encourage territorial conflict and make exploration/industry significantly more interesting.',
-    status: NEXT
-  },
-  {
-    title: 'Industry overhaul',
-    description: 'Crafting recipes will be completely redone to introduce intermediate components. Refining and crafting of all items will take time.',
-    status: NEXT
-  },
-  {
-    title: 'Rarity overhaul',
-    description: 'Significant changes to the rarity system to better fit modern Starscape. Will most likely involve removing colored rarity tiers and replacing them with a more robust system that better distinguishes between items that are manufactured and items that are found as loot. Ships will use a unique system.',
     status: NEXT
   },
   {
