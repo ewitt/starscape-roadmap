@@ -237,8 +237,8 @@ const LONG_TERM = [
     status: IN_PROGRESS
   },
   {
-    title: 'Accelerator program part two',
-    description: 'The other project we\'ve been working on during the accelerator project, to be announced soon...',
+    title: 'Skills',
+    description: 'Skills in several different categories trained using skill points that accumulate as you play. Provide small but useful modifiers to stats and gameplay.',
     status: IN_PROGRESS
   },
   {
